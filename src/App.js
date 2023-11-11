@@ -1,22 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import { Home } from "./Components/HomePage/Home";
+import { Login } from "./Components/Login/Login";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          React Shopping Web
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p className="font-LatoBlack">React Shopping Web</p>
+        <h1 class="text-4xl font-bold font-JosefinSansBold underline" >Hello world!</h1>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
+          </Routes>
+        </BrowserRouter>
       </header>
     </div>
   );
