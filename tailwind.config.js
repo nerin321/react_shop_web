@@ -3,12 +3,26 @@ module.exports = {
   content: ["./src/**/*.{html,js}", "./node_modules/flowbite/**/*.js"],
   theme: {
     extend: {
+      //* height
+      height: {
+        email : "52px"
+      },
+      //* Width
+      width: {
+        email : "432px"
+      },
       //* Font Size
       fontSize: {
         '17px': '17px',
+        '32px': '32px',
+      },
+      //* Line height
+      lineHeight: {
+        normal: 'normal',
       },
       //* Color
       colors: {
+        white: "#FFF",
         pink: "#fb2e86",
         red: "#fb2448",
         blue: "#2f1ac4",
@@ -19,6 +33,7 @@ module.exports = {
         purple: "#7e33e0",
         offpurple: "#9f63b5",
         offblue: "#151875",
+        logincolor: "#9096B2",
       },
       //* Font Family
       fontFamily: {
