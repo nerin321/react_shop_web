@@ -30,7 +30,7 @@ module.exports = {
         navyblue: "#151875",
         skyblue: "#f1f3ff",
         pantonepurple: "#e0d3f5",
-        purple: "#7e33e0",
+        violet: "#7e33e0",
         offpurple: "#9f63b5",
         offblue: "#151875",
         logincolor: "#9096B2",
