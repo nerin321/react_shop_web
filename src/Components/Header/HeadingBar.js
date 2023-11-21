@@ -26,10 +26,10 @@ const HeadingBar = () => {
             </div>
             <div className="flex space-x-4 ">
                 <div className="flex items-center px-2">
-                    <Select className="border-none items-center" options={langopt}/>
+                    <Select className="border-none items-center" options={langopt} values={[langopt[0]]}/>
                 </div>
                 <div className="flex items-center w-auto  px-2">
-                    <Select options={money}/>
+                    <Select options={money} values={[money[0]]}/>
                 </div>
                 <div className="flex items-center w-auto px-2">
                     <p>Login</p>
