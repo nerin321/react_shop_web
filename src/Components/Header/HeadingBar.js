@@ -13,7 +13,7 @@ const money = [
 
 const HeadingBar = () => {
     return (
-        <header className="bg-violet w-full h-11 shrink-0 flex justify-between px-80 text-white">
+        <header className="bg-violet w-full h-11 shrink-0 flex justify-between px-80 text-white py-0">
             <div className="flex space-x-4 pr-96">
                 <div className="flex items-center mb-2 pr-6">
                     <ion-icon name="mail-outline"></ion-icon>
