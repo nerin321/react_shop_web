@@ -1,20 +1,39 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}", "./node_modules/flowbite/**/*.js"],
   theme: {
     extend: {
+      //* height
+      height: {
+        email : "52px"
+      },
+      //* Width
+      width: {
+        email : "432px"
+      },
+      //* Font Size
+      fontSize: {
+        '17px': '17px',
+        '32px': '32px',
+      },
+      //* Line height
+      lineHeight: {
+        normal: 'normal',
+      },
       //* Color
       colors: {
-        pink: '#fb2e86', 
-        red: '#fb2448', 
-        blue: '#2f1ac4', 
-        offnavyblue: '#3f509e',
-        navyblue: '#151875',
-        skyblue: '#f1f3ff',
-        pantonepurple: '#e0d3f5',
-        purple: '#7e33e0',
-        offpurple: '#9f63b5',
-        offblue: '#151875'
+        white: "#FFF",
+        pink: "#fb2e86",
+        red: "#fb2448",
+        blue: "#2f1ac4",
+        offnavyblue: "#3f509e",
+        navyblue: "#151875",
+        skyblue: "#f1f3ff",
+        pantonepurple: "#e0d3f5",
+        violet: "#7e33e0",
+        offpurple: "#9f63b5",
+        offblue: "#151875",
+        logincolor: "#9096B2",
       },
       //* Font Family
       fontFamily: {
@@ -22,7 +41,10 @@ module.exports = {
         JosefinSansBold: ["JosefinSans-Bold", "sans-serif"],
         JosefinSansBoldItalic: ["JosefinSans-BoldItalic", "sans-serif"],
         JosefinSansExtraLight: ["JosefinSans-ExtraLight", "sans-serif"],
-        JosefinSansExtraLightItalic: ["JosefinSans-ExtraLightItalic", "sans-serif"],
+        JosefinSansExtraLightItalic: [
+          "JosefinSans-ExtraLightItalic",
+          "sans-serif",
+        ],
         JosefinSansItalic: ["JosefinSans-Italic", "sans-serif"],
         JosefinSansLight: ["JosefinSans-Light", "sans-serif"],
         JosefinSansLightItalic: ["JosefinSans-LightItalic", "sans-serif"],
@@ -48,5 +70,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };
