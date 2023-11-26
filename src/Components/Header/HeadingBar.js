@@ -13,8 +13,8 @@ const money = [
 
 const HeadingBar = () => {
     return (
-        <header className="bg-violet w-full h-11 shrink-0 flex justify-between px-80 text-white py-0">
-            <div className="flex space-x-4 pr-96">
+        <header className="bg-violet w-full h-11 shrink-0 flex justify-between px-52 text-white py-0">
+            <div className="flex space-x-4 pr-80">
                 <div className="flex items-center mb-2 pr-6">
                     <ion-icon name="mail-outline"></ion-icon>
                     <p>example@example.com</p>
@@ -26,13 +26,15 @@ const HeadingBar = () => {
             </div>
             <div className="flex space-x-4 ">
                 <div className="flex items-center px-2">
-                    <Select className="border-none items-center" options={langopt}/>
+                    <Select options={langopt} values={[langopt[0]]} style={{border: 'none', paddingTop: 5}}/>
                 </div>
                 <div className="flex items-center w-auto  px-2">
-                    <Select options={money}/>
+                    <Select options={money} values={[money[0]]} style={{border: 'none', paddingTop: 5,}}/>
                 </div>
                 <div className="flex items-center w-auto px-2">
-                    <p>Login</p>
+                    <p>
+                        <a href="/login">Login</a>
+                    </p>
                 </div>
                 <div className="flex items-center px-2">
                     <p>Wishlist</p>

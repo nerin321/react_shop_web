@@ -5,16 +5,18 @@ module.exports = {
     extend: {
       //* height
       height: {
-        email : "52px"
+        email : "52px",
       },
       //* Width
       width: {
-        email : "432px"
+        email : "432px",
+        navbar: "1177px",
       },
       //* Font Size
       fontSize: {
         '17px': '17px',
         '32px': '32px',
+        logo: '34px',
       },
       //* Line height
       lineHeight: {
@@ -34,6 +36,9 @@ module.exports = {
         offpurple: "#9f63b5",
         offblue: "#151875",
         logincolor: "#9096B2",
+        loginboder: "#C2C5E1",
+        logocolor: '#0D0E43',
+        bordersearch: '#E7E6EF'
       },
       //* Font Family
       fontFamily: {
