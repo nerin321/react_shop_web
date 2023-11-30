@@ -10,8 +10,8 @@ const Footer = () => {
                             Hekto
                         </a>
                         <div class="relative py-3 pt-8">
-                            <input type="search" id="default-search" class="block w-72 h-11 rounded-sm opacity-40" placeholder="Enter Email Address" required/>
-                            <button type="submit" class="h-10 w-28 absolute end-1 bottom-3.5 rounded bg-pink text-17px not-italic text-white">Sign Up</button>
+                            <input type="search" id="default-search" class="block w-96 h-11 rounded-sm opacity-40" placeholder="Enter Email Address" required/>
+                            <button type="submit" class="h-10 w-28 absolute end-px bottom-3.5 rounded bg-pink text-17px not-italic text-white">Sign Up</button>
                         </div>
                         <div>
                             <span class="text-subtextcolor font-LatoRegular text-sm">
