@@ -38,7 +38,9 @@ module.exports = {
         logincolor: "#9096B2",
         loginboder: "#C2C5E1",
         logocolor: '#0D0E43',
-        bordersearch: '#E7E6EF'
+        bordersearch: '#E7E6EF',
+        footerbg: '#EEEFFB',
+        subtextcolor: '#8A8FB9',
       },
       //* Font Family
       fontFamily: {
