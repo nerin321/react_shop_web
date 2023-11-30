@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import HeadingBar from '../Header/HeadingBar';
 import NavBar from '../Header/NavBar';
+import Footer from '../Footer/Footer';
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -50,6 +51,7 @@ function Login() {
             </form>
           </div>
         </div>
+        <Footer/>
       </div>
     );
 }
