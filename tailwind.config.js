@@ -62,9 +62,28 @@ module.exports = {
         mainTitle: "53px",
         subTitle: "16px",
       },
+      //* height
+      height: {
+        email : "52px",
+      },
+      //* Width
+      width: {
+        email : "432px",
+        navbar: "1177px",
+      },
+      //* Font Size
+      fontSize: {
+        '17px': '17px',
+        '32px': '32px',
+        logo: '34px',
+      },
+      //* Line height
+      lineHeight: {
+        normal: 'normal',
+      },
       //* Color
       colors: {
-        green: "##08D15F",
+        white: "#FFF",
         pink: "#fb2e86",
         red: "#fb2448",
         blue: "#2f1ac4",
@@ -72,12 +91,18 @@ module.exports = {
         navyblue: "#151875",
         skyblue: "#f1f3ff",
         pantonepurple: "#e0d3f5",
-        purple: "#7e33e0",
+        violet: "#7e33e0",
         offpurple: "#9f63b5",
         offblue: "#151875",
         coolgrey: "#8A8FB9",
         cottoncandy: "#FEBAD7",
         electricpink: "#FB2E86"
+        logincolor: "#9096B2",
+        loginboder: "#C2C5E1",
+        logocolor: '#0D0E43',
+        bordersearch: '#E7E6EF',
+        footerbg: '#EEEFFB',
+        subtextcolor: '#8A8FB9',
       },
       //* Font Family
       fontFamily: {
