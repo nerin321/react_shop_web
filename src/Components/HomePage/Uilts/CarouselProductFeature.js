@@ -89,17 +89,17 @@ function CartProductFeature(props) {
                       <div className="flex">
                       {/* Cart Icon */}
                       <div className="icon__item group/item_icon hover:bg-[#EEEFFB] w-[30px] h-[30px] flex items-center rounded-full justify-center">
-                        <ion-icon name="cart-outline" className="group-hover/item_icon:w-[19px] group-hover/item_icon:h-[19px] w-[17px] h-[17px]"></ion-icon>
+                        <ion-icon name="cart-outline" className="group-hover/item_icon:w-[19px] group-hover/item_icon:h-[19px] w-[17px] h-[17px] text-[19px]"></ion-icon>
                       </div>
 
                       {/* Heart Icon */}
                       <div className="icon__item group/item_icon hover:bg-[#EEEFFB] w-[30px] h-[30px] flex items-center rounded-full justify-center">
-                        <ion-icon name="heart-outline" className="group-hover/item_icon:w-[19px] group-hover/item_icon:h-[19px] w-[17px] h-[17px]"></ion-icon>
+                        <ion-icon name="heart-outline" className="group-hover/item_icon:w-[19px] group-hover/item_icon:h-[19px] w-[17px] h-[17px] text-[19px"></ion-icon>
                       </div>
 
                       {/* Search Icon */}
                       <div className="icon__item group/item_icon hover:bg-[#EEEFFB] w-[30px] h-[30px] flex items-center rounded-full justify-center">
-                        <ion-icon name="search-outline" className="group-hover/item_icon:w-[19px] group-hover/item_icon:h-[19px] w-[17px] h-[17px]"></ion-icon>
+                        <ion-icon name="search-outline" className="group-hover/item_icon:w-[19px] group-hover/item_icon:h-[19px] w-[17px] h-[17px] text-[19px"></ion-icon>
                       </div>
                       </div>
                     </div>

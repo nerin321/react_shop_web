@@ -71,16 +71,6 @@ module.exports = {
         email : "432px",
         navbar: "1177px",
       },
-      //* Font Size
-      fontSize: {
-        '17px': '17px',
-        '32px': '32px',
-        logo: '34px',
-      },
-      //* Line height
-      lineHeight: {
-        normal: 'normal',
-      },
       //* Color
       colors: {
         white: "#FFF",
@@ -96,7 +86,7 @@ module.exports = {
         offblue: "#151875",
         coolgrey: "#8A8FB9",
         cottoncandy: "#FEBAD7",
-        electricpink: "#FB2E86"
+        electricpink: "#FB2E86",
         logincolor: "#9096B2",
         loginboder: "#C2C5E1",
         logocolor: '#0D0E43',
